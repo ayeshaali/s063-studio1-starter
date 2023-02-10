@@ -1,6 +1,12 @@
 import { createApp, Vue } from "https://mavue.mavo.io/mavue.js";
+import MaData from "https://mavue.mavo.io/ma-data/ma-data.js";
+
 
 let app = createApp({
+	components: {
+		"ma-data": MaData
+	},
+
 	data: {
 		tasks: [
 			{
